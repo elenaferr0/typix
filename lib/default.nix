@@ -13,6 +13,7 @@ in {
   devShell = callPackage ./devShell.nix {};
   emojiFontPathFromString = callPackage ./emojiFontPathFromString.nix {};
   inferTypstProjectOutput = callPackage ./inferTypstProjectOutput.nix {};
+  imageSource = callPackage ./imageSource.nix {};
   linkVirtualPaths = callPackage ./linkVirtualPaths.nix {};
   mkTypstDerivation = callPackage ./mkTypstDerivation.nix {};
   typstOptsFromArgs = callPackage ./typstOptsFromArgs.nix {};
