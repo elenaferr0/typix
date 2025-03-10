@@ -40,7 +40,7 @@
     "typstOptsString"
     "typstOutput"
     "typstSource"
-    # "typstWatchCommand"
+    "typstWatchCommand"
     "virtualPaths"
   ];
 in
